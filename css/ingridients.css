@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'Mint Grotesk Trial';
+    src: url(../fonts/Mint-Grotesk-Trial/MintGroteskBlackTrial.otf);
+    src: url(../fonts/Mint-Grotesk-Trial/MintGroteskRegularTrial.otf);
+}
+
+html{
+    font-family:'Mint Grotesk Trial';
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    padding: 61px 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header i{
+    color:#FF4242;
+}
+
+.meal img{
+    width: 100%;
+    margin-top: 14px;
+}
+
+.meal-label{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookmark{
+    /* padding: 2px; */
+    border-radius: 5px;
+    height: 42px;
+    grid-column: 12/13;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #0006;
+    
+}
+
+.meal__bookmark{
+    position: relative;
+    left: 1px;
+    top: 5px;
+    color: #FF4242;
+}
+.meal__heading{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(8, 6, 19, 0.97);
+}
+.meal__details{
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(8, 6, 19, 0.675241);
+}
+
+.ingredients{
+    margin-top: 30px;
+}
+.ingredients__heading{
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(8, 6, 19, 0.97);
+}
+
+.ingredients ul{
+    margin-top: 24px;
+}
+.ingredients li{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color:#F8F7F8;    
+}
+
+.ingredients__ingredient{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(8, 6, 19, 0.97);
+}
+
+.ingredients__amount{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+    color: rgba(8, 6, 19, 0.675241);
+}
+
+.procedure__heading{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(8, 6, 19, 0.97);
+}
+
+.procedure__paragraph{
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(8, 6, 19, 0.675241);
+}

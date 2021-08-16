@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'Mint Grotesk Trial';
+    src: url(../fonts/Mint-Grotesk-Trial/MintGroteskBlackTrial.otf);
+    src: url(../fonts/Mint-Grotesk-Trial/MintGroteskRegularTrial.otf);
+}
+
+html{
+    font-family:'Mint Grotesk Trial';
+}
+.container{
+    padding: 61px 30px;
+    overflow: hidden;
+}
+
+.header-text__heading{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #080613;
+}
+
+.header-text__sub-heading{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: rgba(8, 6, 19, 0.675241);
+}
+
+.searchbar{
+    background: #F8F7F8;
+    border-radius: 25px;
+    width: 100%;
+    /* height: 100px; */
+    padding: 8px;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="search"]{
+    border: none;
+    background: #F8F7F8;
+    padding-left: 12px;
+    outline: none;
+}
+
+input[type="search"]:active{
+    outline: none;
+}
+
+.meal{
+    height: 364px;
+    width: 100%;
+    border-radius: 16px;
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    text-decoration: none;
+    box-shadow: 0 0 0 5000px inset #0006;
+}
+
+.bookmark{
+    /* padding: 2px; */
+    border-radius: 50%;
+    height: 42px;
+    grid-column: 11/12;
+    grid-row: 
+    background-color: #fff;
+    
+}
+
+.meal__bookmark{
+    position: relative;
+    left: 6px;
+    top: 3px;
+    color: #FF4242;
+}
+
+.meal__text{
+    grid-column: 2/7;
+    grid-row: 3/6 ;
+    
+}
+
+.meal__name{
+    font-size: 20px;
+    line-height: 26px;      
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.meal__details{
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+.meal-1{
+    background-image: url(../img/Assignment/image5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.meal-2{
+    background-image: url(../img/Assignment/image3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.meal-3{
+    background-image: url(../img/Assignment/image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.meal-4{
+    background-image: url(../img/Assignment/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container__get-started{
+    background-color: #FF4242;
+    border-radius: 100px;
+    padding: 18px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.load{
+    color:#FF4242;
+    padding: 7px;
+    background-color: #fff;
+    border-radius: 50px;
+}
